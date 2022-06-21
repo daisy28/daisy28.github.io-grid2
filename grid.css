@@ -1,16 +1,12 @@
-body html{
-    height: 100%;
-}
-
-
-section{
+body, html{
     background-color: rgb(20, 20, 71);
-    
 }
+
+/* -------Layout------- */
 
 .container{
-    height: 100%;
-    padding: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
     display: grid;
     grid-gap: 9px;
     grid-template-columns:2fr 1fr 1fr 1fr 1fr;
